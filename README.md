@@ -9,20 +9,24 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Algorithm
 STEP 1 :
+START
+STEP 2 :
 Choose the number of clusters (K): Decide how many clusters you want to identify in your data. This is a hyperparameter that you need to set in advance.
 
-STEP 2 :
+STEP 3:
 Initialize cluster centroids: Randomly select K data points from your dataset as the initial centroids of the clusters.
 
-STEP 3 :
+STEP 4 :
 Assign data points to clusters: Calculate the distance between each data point and each centroid. Assign each data point to the cluster with the closest centroid. This step is typically done using Euclidean distance, but other distance metrics can also be used.
 
-STEP 4 :
+STEP 5 :
 Update cluster centroids: Recalculate the centroid of each cluster by taking the mean of all the data points assigned to that cluster.
 
-STEP 5 :
+STEP 6 :
 Repeat steps 3 and 4: Iterate steps 3 and 4 until convergence. Convergence occurs when the assignments of data points to clusters no longer change or change very minimally. 
 
+STEP 7 :
+END
 ## Program:
 ```
 /*
