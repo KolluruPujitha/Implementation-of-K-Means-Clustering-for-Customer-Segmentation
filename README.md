@@ -10,6 +10,7 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 ## Algorithm
 STEP 1 :
 START
+
 STEP 2 :
 Choose the number of clusters (K): Decide how many clusters you want to identify in your data. This is a hyperparameter that you need to set in advance.
 
